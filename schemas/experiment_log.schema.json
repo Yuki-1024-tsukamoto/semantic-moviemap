@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "experiment_log.schema.json",
+  "type": "object",
+  "required": ["session_id", "events"],
+  "properties": {
+    "session_id": {"type": "string"},
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "event_type", "node_id", "heading", "mode", "payload"],
+        "properties": {
+          "timestamp": {"type": "string", "format": "date-time"},
+          "event_type": {"type": "string"},
+          "node_id": {"type": "string"},
+          "heading": {"type": "string"},
+          "mode": {"enum": ["tourism", "route_practice"]},
+          "payload": {"type": "object"}
+        }
+      }
+    }
+  }
+}
