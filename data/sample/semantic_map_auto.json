@@ -1,0 +1,4018 @@
+{
+  "meta": {
+    "map_id": "sample_auto_001",
+    "version": "0.1.0",
+    "condition_type": "auto"
+  },
+  "nodes": [
+    {
+      "id": "N1",
+      "label": {
+        "en": "Entrance Lobby",
+        "ja": "入口ロビー"
+      },
+      "tags": [
+        "corridor",
+        "zone-1"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 1 front quick cue. corridor guide.",
+            "ja": "ノード1のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing front. Corridor and nearby points are described.",
+            "ja": "ノード1でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward front, including exhibits and landmarks.",
+            "ja": "ノード1のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 1 front_right quick cue.",
+            "ja": "ノード1のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード1でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード1のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 1 right quick cue.",
+            "ja": "ノード1のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing right. Corridor and nearby points are described.",
+            "ja": "ノード1でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward right, including exhibits and landmarks.",
+            "ja": "ノード1のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 1 back_right quick cue.",
+            "ja": "ノード1のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード1でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード1のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 1 back quick cue.",
+            "ja": "ノード1のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing back. Corridor and nearby points are described.",
+            "ja": "ノード1でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward back, including exhibits and landmarks.",
+            "ja": "ノード1のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 1 back_left quick cue.",
+            "ja": "ノード1のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード1でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード1のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 1 left quick cue.",
+            "ja": "ノード1のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing left. Corridor and nearby points are described.",
+            "ja": "ノード1でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward left, including exhibits and landmarks.",
+            "ja": "ノード1のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 1 front_left quick cue.",
+            "ja": "ノード1のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 1 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード1でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 1 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード1のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "案内板",
+        "zone-1",
+        "sign",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N2",
+      "label": {
+        "en": "Node 2",
+        "ja": "地点2"
+      },
+      "tags": [
+        "corridor",
+        "zone-1"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 2 front quick cue. corridor guide.",
+            "ja": "ノード2のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing front. Corridor and nearby points are described.",
+            "ja": "ノード2でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward front, including exhibits and landmarks.",
+            "ja": "ノード2のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 2 front_right quick cue.",
+            "ja": "ノード2のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード2でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード2のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 2 right quick cue.",
+            "ja": "ノード2のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing right. Corridor and nearby points are described.",
+            "ja": "ノード2でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward right, including exhibits and landmarks.",
+            "ja": "ノード2のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 2 back_right quick cue.",
+            "ja": "ノード2のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード2でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード2のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 2 back quick cue.",
+            "ja": "ノード2のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing back. Corridor and nearby points are described.",
+            "ja": "ノード2でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward back, including exhibits and landmarks.",
+            "ja": "ノード2のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 2 back_left quick cue.",
+            "ja": "ノード2のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード2でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード2のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 2 left quick cue.",
+            "ja": "ノード2のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing left. Corridor and nearby points are described.",
+            "ja": "ノード2でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward left, including exhibits and landmarks.",
+            "ja": "ノード2のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 2 front_left quick cue.",
+            "ja": "ノード2のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 2 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード2でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 2 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード2のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "guide",
+        "通路",
+        "zone-1",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N3",
+      "label": {
+        "en": "Node 3",
+        "ja": "地点3"
+      },
+      "tags": [
+        "corridor",
+        "zone-1"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 3 front quick cue. corridor guide.",
+            "ja": "ノード3のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing front. Corridor and nearby points are described.",
+            "ja": "ノード3でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward front, including exhibits and landmarks.",
+            "ja": "ノード3のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 3 front_right quick cue.",
+            "ja": "ノード3のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード3でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード3のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 3 right quick cue.",
+            "ja": "ノード3のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing right. Corridor and nearby points are described.",
+            "ja": "ノード3でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward right, including exhibits and landmarks.",
+            "ja": "ノード3のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 3 back_right quick cue.",
+            "ja": "ノード3のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード3でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード3のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 3 back quick cue.",
+            "ja": "ノード3のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing back. Corridor and nearby points are described.",
+            "ja": "ノード3でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward back, including exhibits and landmarks.",
+            "ja": "ノード3のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 3 back_left quick cue.",
+            "ja": "ノード3のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード3でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード3のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 3 left quick cue.",
+            "ja": "ノード3のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing left. Corridor and nearby points are described.",
+            "ja": "ノード3でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward left, including exhibits and landmarks.",
+            "ja": "ノード3のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 3 front_left quick cue.",
+            "ja": "ノード3のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 3 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード3でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 3 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード3のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-1",
+        "展示",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N4",
+      "label": {
+        "en": "Node 4",
+        "ja": "地点4"
+      },
+      "tags": [
+        "corridor",
+        "zone-1"
+      ],
+      "ocr": [
+        "Room 4",
+        "Gate-4"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 4 front quick cue. corridor guide.",
+            "ja": "ノード4のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing front. Corridor and nearby points are described.",
+            "ja": "ノード4でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward front, including exhibits and landmarks.",
+            "ja": "ノード4のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 4 front_right quick cue.",
+            "ja": "ノード4のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード4でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード4のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 4 right quick cue.",
+            "ja": "ノード4のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing right. Corridor and nearby points are described.",
+            "ja": "ノード4でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward right, including exhibits and landmarks.",
+            "ja": "ノード4のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 4 back_right quick cue.",
+            "ja": "ノード4のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード4でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード4のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 4 back quick cue.",
+            "ja": "ノード4のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing back. Corridor and nearby points are described.",
+            "ja": "ノード4でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward back, including exhibits and landmarks.",
+            "ja": "ノード4のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 4 back_left quick cue.",
+            "ja": "ノード4のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード4でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード4のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 4 left quick cue.",
+            "ja": "ノード4のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing left. Corridor and nearby points are described.",
+            "ja": "ノード4でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward left, including exhibits and landmarks.",
+            "ja": "ノード4のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 4 front_left quick cue.",
+            "ja": "ノード4のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 4 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード4でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 4 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード4のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-1",
+        "bench",
+        "ベンチ",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N5",
+      "label": {
+        "en": "Node 5",
+        "ja": "地点5"
+      },
+      "tags": [
+        "corridor",
+        "zone-1"
+      ],
+      "ocr": [
+        "Guide Sign",
+        "案内板"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 5 front quick cue. corridor guide.",
+            "ja": "ノード5のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing front. Corridor and nearby points are described.",
+            "ja": "ノード5でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward front, including exhibits and landmarks.",
+            "ja": "ノード5のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 5 front_right quick cue.",
+            "ja": "ノード5のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード5でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード5のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 5 right quick cue.",
+            "ja": "ノード5のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing right. Corridor and nearby points are described.",
+            "ja": "ノード5でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward right, including exhibits and landmarks.",
+            "ja": "ノード5のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 5 back_right quick cue.",
+            "ja": "ノード5のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード5でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード5のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 5 back quick cue.",
+            "ja": "ノード5のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing back. Corridor and nearby points are described.",
+            "ja": "ノード5でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward back, including exhibits and landmarks.",
+            "ja": "ノード5のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 5 back_left quick cue.",
+            "ja": "ノード5のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード5でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード5のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 5 left quick cue.",
+            "ja": "ノード5のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing left. Corridor and nearby points are described.",
+            "ja": "ノード5でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward left, including exhibits and landmarks.",
+            "ja": "ノード5のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 5 front_left quick cue.",
+            "ja": "ノード5のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 5 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード5でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 5 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード5のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "出口",
+        "zone-1",
+        "exit",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N6",
+      "label": {
+        "en": "Node 6",
+        "ja": "地点6"
+      },
+      "tags": [
+        "corridor",
+        "branch",
+        "zone-2"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 6 front quick cue. corridor guide.",
+            "ja": "ノード6のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing front. Corridor and nearby points are described.",
+            "ja": "ノード6でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward front, including exhibits and landmarks.",
+            "ja": "ノード6のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 6 front_right quick cue.",
+            "ja": "ノード6のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード6でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード6のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 6 right quick cue.",
+            "ja": "ノード6のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing right. Corridor and nearby points are described.",
+            "ja": "ノード6でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward right, including exhibits and landmarks.",
+            "ja": "ノード6のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 6 back_right quick cue.",
+            "ja": "ノード6のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード6でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード6のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 6 back quick cue.",
+            "ja": "ノード6のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing back. Corridor and nearby points are described.",
+            "ja": "ノード6でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward back, including exhibits and landmarks.",
+            "ja": "ノード6のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 6 back_left quick cue.",
+            "ja": "ノード6のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード6でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード6のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 6 left quick cue.",
+            "ja": "ノード6のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing left. Corridor and nearby points are described.",
+            "ja": "ノード6でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward left, including exhibits and landmarks.",
+            "ja": "ノード6のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 6 front_left quick cue.",
+            "ja": "ノード6のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 6 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード6でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 6 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード6のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "ロビー",
+        "zone-2",
+        "branch",
+        "restroom",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N7",
+      "label": {
+        "en": "Node 7",
+        "ja": "地点7"
+      },
+      "tags": [
+        "corridor",
+        "zone-2"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 7 front quick cue. corridor guide.",
+            "ja": "ノード7のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing front. Corridor and nearby points are described.",
+            "ja": "ノード7でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward front, including exhibits and landmarks.",
+            "ja": "ノード7のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 7 front_right quick cue.",
+            "ja": "ノード7のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード7でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード7のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 7 right quick cue.",
+            "ja": "ノード7のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing right. Corridor and nearby points are described.",
+            "ja": "ノード7でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward right, including exhibits and landmarks.",
+            "ja": "ノード7のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 7 back_right quick cue.",
+            "ja": "ノード7のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード7でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード7のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 7 back quick cue.",
+            "ja": "ノード7のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing back. Corridor and nearby points are described.",
+            "ja": "ノード7でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward back, including exhibits and landmarks.",
+            "ja": "ノード7のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 7 back_left quick cue.",
+            "ja": "ノード7のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード7でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード7のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 7 left quick cue.",
+            "ja": "ノード7のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing left. Corridor and nearby points are described.",
+            "ja": "ノード7でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward left, including exhibits and landmarks.",
+            "ja": "ノード7のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 7 front_left quick cue.",
+            "ja": "ノード7のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 7 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード7でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 7 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード7のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-2",
+        "トイレ",
+        "lobby",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N8",
+      "label": {
+        "en": "Node 8",
+        "ja": "地点8"
+      },
+      "tags": [
+        "corridor",
+        "exhibit",
+        "zone-2"
+      ],
+      "ocr": [
+        "Room 8",
+        "Gate-8"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 8 front quick cue. corridor guide.",
+            "ja": "ノード8のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing front. Corridor and nearby points are described.",
+            "ja": "ノード8でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward front, including exhibits and landmarks.",
+            "ja": "ノード8のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 8 front_right quick cue.",
+            "ja": "ノード8のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード8でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード8のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 8 right quick cue.",
+            "ja": "ノード8のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing right. Corridor and nearby points are described.",
+            "ja": "ノード8でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward right, including exhibits and landmarks.",
+            "ja": "ノード8のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 8 back_right quick cue.",
+            "ja": "ノード8のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード8でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード8のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 8 back quick cue.",
+            "ja": "ノード8のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing back. Corridor and nearby points are described.",
+            "ja": "ノード8でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward back, including exhibits and landmarks.",
+            "ja": "ノード8のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 8 back_left quick cue.",
+            "ja": "ノード8のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード8でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード8のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 8 left quick cue.",
+            "ja": "ノード8のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing left. Corridor and nearby points are described.",
+            "ja": "ノード8でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward left, including exhibits and landmarks.",
+            "ja": "ノード8のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 8 front_left quick cue.",
+            "ja": "ノード8のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 8 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード8でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 8 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード8のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "entrance",
+        "zone-2",
+        "exhibit",
+        "入口",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N9",
+      "label": {
+        "en": "Node 9",
+        "ja": "地点9"
+      },
+      "tags": [
+        "corridor",
+        "zone-2"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 9 front quick cue. corridor guide.",
+            "ja": "ノード9のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing front. Corridor and nearby points are described.",
+            "ja": "ノード9でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward front, including exhibits and landmarks.",
+            "ja": "ノード9のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 9 front_right quick cue.",
+            "ja": "ノード9のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード9でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード9のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 9 right quick cue.",
+            "ja": "ノード9のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing right. Corridor and nearby points are described.",
+            "ja": "ノード9でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward right, including exhibits and landmarks.",
+            "ja": "ノード9のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 9 back_right quick cue.",
+            "ja": "ノード9のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード9でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード9のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 9 back quick cue.",
+            "ja": "ノード9のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing back. Corridor and nearby points are described.",
+            "ja": "ノード9でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward back, including exhibits and landmarks.",
+            "ja": "ノード9のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 9 back_left quick cue.",
+            "ja": "ノード9のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード9でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード9のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 9 left quick cue.",
+            "ja": "ノード9のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing left. Corridor and nearby points are described.",
+            "ja": "ノード9でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward left, including exhibits and landmarks.",
+            "ja": "ノード9のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 9 front_left quick cue.",
+            "ja": "ノード9のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 9 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード9でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 9 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード9のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-2",
+        "案内板",
+        "sign",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N10",
+      "label": {
+        "en": "Node 10",
+        "ja": "地点10"
+      },
+      "tags": [
+        "corridor",
+        "zone-2"
+      ],
+      "ocr": [
+        "Guide Sign",
+        "案内板"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 10 front quick cue. corridor guide.",
+            "ja": "ノード10のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing front. Corridor and nearby points are described.",
+            "ja": "ノード10でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward front, including exhibits and landmarks.",
+            "ja": "ノード10のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 10 front_right quick cue.",
+            "ja": "ノード10のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード10でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード10のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 10 right quick cue.",
+            "ja": "ノード10のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing right. Corridor and nearby points are described.",
+            "ja": "ノード10でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward right, including exhibits and landmarks.",
+            "ja": "ノード10のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 10 back_right quick cue.",
+            "ja": "ノード10のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード10でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード10のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 10 back quick cue.",
+            "ja": "ノード10のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing back. Corridor and nearby points are described.",
+            "ja": "ノード10でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward back, including exhibits and landmarks.",
+            "ja": "ノード10のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 10 back_left quick cue.",
+            "ja": "ノード10のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード10でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード10のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 10 left quick cue.",
+            "ja": "ノード10のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing left. Corridor and nearby points are described.",
+            "ja": "ノード10でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward left, including exhibits and landmarks.",
+            "ja": "ノード10のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 10 front_left quick cue.",
+            "ja": "ノード10のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 10 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード10でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 10 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード10のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-2",
+        "guide",
+        "通路",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N11",
+      "label": {
+        "en": "Node 11",
+        "ja": "地点11"
+      },
+      "tags": [
+        "corridor",
+        "branch",
+        "zone-3"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 11 front quick cue. corridor guide.",
+            "ja": "ノード11のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing front. Corridor and nearby points are described.",
+            "ja": "ノード11でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward front, including exhibits and landmarks.",
+            "ja": "ノード11のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 11 front_right quick cue.",
+            "ja": "ノード11のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード11でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード11のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 11 right quick cue.",
+            "ja": "ノード11のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing right. Corridor and nearby points are described.",
+            "ja": "ノード11でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward right, including exhibits and landmarks.",
+            "ja": "ノード11のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 11 back_right quick cue.",
+            "ja": "ノード11のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード11でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード11のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 11 back quick cue.",
+            "ja": "ノード11のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing back. Corridor and nearby points are described.",
+            "ja": "ノード11でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward back, including exhibits and landmarks.",
+            "ja": "ノード11のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 11 back_left quick cue.",
+            "ja": "ノード11のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード11でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード11のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 11 left quick cue.",
+            "ja": "ノード11のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing left. Corridor and nearby points are described.",
+            "ja": "ノード11でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward left, including exhibits and landmarks.",
+            "ja": "ノード11のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 11 front_left quick cue.",
+            "ja": "ノード11のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 11 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード11でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 11 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード11のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "展示",
+        "branch",
+        "zone-3",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N12",
+      "label": {
+        "en": "Node 12",
+        "ja": "地点12"
+      },
+      "tags": [
+        "corridor",
+        "zone-3"
+      ],
+      "ocr": [
+        "Room 12",
+        "Gate-12"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 12 front quick cue. corridor guide.",
+            "ja": "ノード12のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing front. Corridor and nearby points are described.",
+            "ja": "ノード12でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward front, including exhibits and landmarks.",
+            "ja": "ノード12のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 12 front_right quick cue.",
+            "ja": "ノード12のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード12でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード12のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 12 right quick cue.",
+            "ja": "ノード12のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing right. Corridor and nearby points are described.",
+            "ja": "ノード12でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward right, including exhibits and landmarks.",
+            "ja": "ノード12のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 12 back_right quick cue.",
+            "ja": "ノード12のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード12でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード12のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 12 back quick cue.",
+            "ja": "ノード12のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing back. Corridor and nearby points are described.",
+            "ja": "ノード12でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward back, including exhibits and landmarks.",
+            "ja": "ノード12のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 12 back_left quick cue.",
+            "ja": "ノード12のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード12でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード12のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 12 left quick cue.",
+            "ja": "ノード12のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing left. Corridor and nearby points are described.",
+            "ja": "ノード12でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward left, including exhibits and landmarks.",
+            "ja": "ノード12のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 12 front_left quick cue.",
+            "ja": "ノード12のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 12 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード12でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 12 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード12のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "bench",
+        "zone-3",
+        "ベンチ",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N13",
+      "label": {
+        "en": "Node 13",
+        "ja": "地点13"
+      },
+      "tags": [
+        "corridor",
+        "exhibit",
+        "zone-3"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 13 front quick cue. corridor guide.",
+            "ja": "ノード13のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing front. Corridor and nearby points are described.",
+            "ja": "ノード13でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward front, including exhibits and landmarks.",
+            "ja": "ノード13のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 13 front_right quick cue.",
+            "ja": "ノード13のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード13でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード13のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 13 right quick cue.",
+            "ja": "ノード13のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing right. Corridor and nearby points are described.",
+            "ja": "ノード13でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward right, including exhibits and landmarks.",
+            "ja": "ノード13のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 13 back_right quick cue.",
+            "ja": "ノード13のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード13でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード13のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 13 back quick cue.",
+            "ja": "ノード13のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing back. Corridor and nearby points are described.",
+            "ja": "ノード13でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward back, including exhibits and landmarks.",
+            "ja": "ノード13のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 13 back_left quick cue.",
+            "ja": "ノード13のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード13でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード13のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 13 left quick cue.",
+            "ja": "ノード13のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing left. Corridor and nearby points are described.",
+            "ja": "ノード13でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward left, including exhibits and landmarks.",
+            "ja": "ノード13のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 13 front_left quick cue.",
+            "ja": "ノード13のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 13 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード13でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 13 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード13のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-3",
+        "exit",
+        "出口",
+        "exhibit",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N14",
+      "label": {
+        "en": "Node 14",
+        "ja": "地点14"
+      },
+      "tags": [
+        "corridor",
+        "zone-3"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 14 front quick cue. corridor guide.",
+            "ja": "ノード14のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing front. Corridor and nearby points are described.",
+            "ja": "ノード14でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward front, including exhibits and landmarks.",
+            "ja": "ノード14のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 14 front_right quick cue.",
+            "ja": "ノード14のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード14でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード14のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 14 right quick cue.",
+            "ja": "ノード14のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing right. Corridor and nearby points are described.",
+            "ja": "ノード14でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward right, including exhibits and landmarks.",
+            "ja": "ノード14のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 14 back_right quick cue.",
+            "ja": "ノード14のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード14でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード14のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 14 back quick cue.",
+            "ja": "ノード14のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing back. Corridor and nearby points are described.",
+            "ja": "ノード14でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward back, including exhibits and landmarks.",
+            "ja": "ノード14のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 14 back_left quick cue.",
+            "ja": "ノード14のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード14でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード14のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 14 left quick cue.",
+            "ja": "ノード14のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing left. Corridor and nearby points are described.",
+            "ja": "ノード14でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward left, including exhibits and landmarks.",
+            "ja": "ノード14のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 14 front_left quick cue.",
+            "ja": "ノード14のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 14 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード14でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 14 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード14のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "restroom",
+        "ロビー",
+        "zone-3",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N15",
+      "label": {
+        "en": "Node 15",
+        "ja": "地点15"
+      },
+      "tags": [
+        "corridor",
+        "zone-3"
+      ],
+      "ocr": [
+        "Guide Sign",
+        "案内板"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 15 front quick cue. corridor guide.",
+            "ja": "ノード15のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing front. Corridor and nearby points are described.",
+            "ja": "ノード15でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward front, including exhibits and landmarks.",
+            "ja": "ノード15のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 15 front_right quick cue.",
+            "ja": "ノード15のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード15でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード15のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 15 right quick cue.",
+            "ja": "ノード15のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing right. Corridor and nearby points are described.",
+            "ja": "ノード15でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward right, including exhibits and landmarks.",
+            "ja": "ノード15のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 15 back_right quick cue.",
+            "ja": "ノード15のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード15でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード15のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 15 back quick cue.",
+            "ja": "ノード15のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing back. Corridor and nearby points are described.",
+            "ja": "ノード15でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward back, including exhibits and landmarks.",
+            "ja": "ノード15のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 15 back_left quick cue.",
+            "ja": "ノード15のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード15でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード15のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 15 left quick cue.",
+            "ja": "ノード15のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing left. Corridor and nearby points are described.",
+            "ja": "ノード15でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward left, including exhibits and landmarks.",
+            "ja": "ノード15のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 15 front_left quick cue.",
+            "ja": "ノード15のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 15 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード15でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 15 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード15のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "トイレ",
+        "zone-3",
+        "lobby",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N16",
+      "label": {
+        "en": "Node 16",
+        "ja": "地点16"
+      },
+      "tags": [
+        "corridor",
+        "branch",
+        "zone-4"
+      ],
+      "ocr": [
+        "Room 16",
+        "Gate-16"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 16 front quick cue. corridor guide.",
+            "ja": "ノード16のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing front. Corridor and nearby points are described.",
+            "ja": "ノード16でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward front, including exhibits and landmarks.",
+            "ja": "ノード16のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 16 front_right quick cue.",
+            "ja": "ノード16のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード16でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード16のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 16 right quick cue.",
+            "ja": "ノード16のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing right. Corridor and nearby points are described.",
+            "ja": "ノード16でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward right, including exhibits and landmarks.",
+            "ja": "ノード16のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 16 back_right quick cue.",
+            "ja": "ノード16のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード16でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード16のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 16 back quick cue.",
+            "ja": "ノード16のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing back. Corridor and nearby points are described.",
+            "ja": "ノード16でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward back, including exhibits and landmarks.",
+            "ja": "ノード16のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 16 back_left quick cue.",
+            "ja": "ノード16のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード16でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード16のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 16 left quick cue.",
+            "ja": "ノード16のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing left. Corridor and nearby points are described.",
+            "ja": "ノード16でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward left, including exhibits and landmarks.",
+            "ja": "ノード16のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 16 front_left quick cue.",
+            "ja": "ノード16のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 16 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード16でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 16 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード16のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-4",
+        "entrance",
+        "branch",
+        "入口",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N17",
+      "label": {
+        "en": "Node 17",
+        "ja": "地点17"
+      },
+      "tags": [
+        "corridor",
+        "zone-4"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 17 front quick cue. corridor guide.",
+            "ja": "ノード17のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing front. Corridor and nearby points are described.",
+            "ja": "ノード17でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward front, including exhibits and landmarks.",
+            "ja": "ノード17のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 17 front_right quick cue.",
+            "ja": "ノード17のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード17でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード17のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 17 right quick cue.",
+            "ja": "ノード17のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing right. Corridor and nearby points are described.",
+            "ja": "ノード17でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward right, including exhibits and landmarks.",
+            "ja": "ノード17のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 17 back_right quick cue.",
+            "ja": "ノード17のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード17でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード17のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 17 back quick cue.",
+            "ja": "ノード17のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing back. Corridor and nearby points are described.",
+            "ja": "ノード17でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward back, including exhibits and landmarks.",
+            "ja": "ノード17のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 17 back_left quick cue.",
+            "ja": "ノード17のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード17でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード17のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 17 left quick cue.",
+            "ja": "ノード17のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing left. Corridor and nearby points are described.",
+            "ja": "ノード17でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward left, including exhibits and landmarks.",
+            "ja": "ノード17のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 17 front_left quick cue.",
+            "ja": "ノード17のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 17 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード17でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 17 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード17のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-4",
+        "案内板",
+        "sign",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N18",
+      "label": {
+        "en": "Node 18",
+        "ja": "地点18"
+      },
+      "tags": [
+        "corridor",
+        "exhibit",
+        "zone-4"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 18 front quick cue. corridor guide.",
+            "ja": "ノード18のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing front. Corridor and nearby points are described.",
+            "ja": "ノード18でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward front, including exhibits and landmarks.",
+            "ja": "ノード18のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 18 front_right quick cue.",
+            "ja": "ノード18のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード18でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード18のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 18 right quick cue.",
+            "ja": "ノード18のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing right. Corridor and nearby points are described.",
+            "ja": "ノード18でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward right, including exhibits and landmarks.",
+            "ja": "ノード18のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 18 back_right quick cue.",
+            "ja": "ノード18のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード18でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード18のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 18 back quick cue.",
+            "ja": "ノード18のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing back. Corridor and nearby points are described.",
+            "ja": "ノード18でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward back, including exhibits and landmarks.",
+            "ja": "ノード18のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 18 back_left quick cue.",
+            "ja": "ノード18のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード18でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード18のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 18 left quick cue.",
+            "ja": "ノード18のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing left. Corridor and nearby points are described.",
+            "ja": "ノード18でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward left, including exhibits and landmarks.",
+            "ja": "ノード18のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 18 front_left quick cue.",
+            "ja": "ノード18のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 18 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード18でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 18 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード18のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "通路",
+        "zone-4",
+        "guide",
+        "exhibit",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N19",
+      "label": {
+        "en": "Node 19",
+        "ja": "地点19"
+      },
+      "tags": [
+        "corridor",
+        "zone-4"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 19 front quick cue. corridor guide.",
+            "ja": "ノード19のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing front. Corridor and nearby points are described.",
+            "ja": "ノード19でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward front, including exhibits and landmarks.",
+            "ja": "ノード19のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 19 front_right quick cue.",
+            "ja": "ノード19のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード19でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード19のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 19 right quick cue.",
+            "ja": "ノード19のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing right. Corridor and nearby points are described.",
+            "ja": "ノード19でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward right, including exhibits and landmarks.",
+            "ja": "ノード19のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 19 back_right quick cue.",
+            "ja": "ノード19のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード19でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード19のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 19 back quick cue.",
+            "ja": "ノード19のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing back. Corridor and nearby points are described.",
+            "ja": "ノード19でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward back, including exhibits and landmarks.",
+            "ja": "ノード19のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 19 back_left quick cue.",
+            "ja": "ノード19のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード19でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード19のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 19 left quick cue.",
+            "ja": "ノード19のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing left. Corridor and nearby points are described.",
+            "ja": "ノード19でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward left, including exhibits and landmarks.",
+            "ja": "ノード19のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 19 front_left quick cue.",
+            "ja": "ノード19のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 19 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード19でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 19 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード19のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-4",
+        "展示",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N20",
+      "label": {
+        "en": "Exit Hall",
+        "ja": "出口ホール"
+      },
+      "tags": [
+        "corridor",
+        "zone-4"
+      ],
+      "ocr": [
+        "Room 20",
+        "Gate-20",
+        "Guide Sign",
+        "案内板"
+      ],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node 20 front quick cue. corridor guide.",
+            "ja": "ノード20のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing front. Corridor and nearby points are described.",
+            "ja": "ノード20でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward front, including exhibits and landmarks.",
+            "ja": "ノード20のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node 20 front_right quick cue.",
+            "ja": "ノード20のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノード20でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward front_right, including exhibits and landmarks.",
+            "ja": "ノード20のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node 20 right quick cue.",
+            "ja": "ノード20のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing right. Corridor and nearby points are described.",
+            "ja": "ノード20でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward right, including exhibits and landmarks.",
+            "ja": "ノード20のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node 20 back_right quick cue.",
+            "ja": "ノード20のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノード20でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward back_right, including exhibits and landmarks.",
+            "ja": "ノード20のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node 20 back quick cue.",
+            "ja": "ノード20のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing back. Corridor and nearby points are described.",
+            "ja": "ノード20でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward back, including exhibits and landmarks.",
+            "ja": "ノード20のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node 20 back_left quick cue.",
+            "ja": "ノード20のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノード20でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward back_left, including exhibits and landmarks.",
+            "ja": "ノード20のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node 20 left quick cue.",
+            "ja": "ノード20のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing left. Corridor and nearby points are described.",
+            "ja": "ノード20でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward left, including exhibits and landmarks.",
+            "ja": "ノード20のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node 20 front_left quick cue.",
+            "ja": "ノード20のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node 20 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノード20でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node 20 toward front_left, including exhibits and landmarks.",
+            "ja": "ノード20のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "zone-4",
+        "bench",
+        "ベンチ",
+        "corridor"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N21",
+      "label": {
+        "en": "Branch N21",
+        "ja": "分岐N21"
+      },
+      "tags": [
+        "branch_path"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node N21 front quick cue. corridor guide.",
+            "ja": "ノードN21のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing front. Corridor and nearby points are described.",
+            "ja": "ノードN21でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward front, including exhibits and landmarks.",
+            "ja": "ノードN21のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node N21 front_right quick cue.",
+            "ja": "ノードN21のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノードN21でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward front_right, including exhibits and landmarks.",
+            "ja": "ノードN21のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node N21 right quick cue.",
+            "ja": "ノードN21のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing right. Corridor and nearby points are described.",
+            "ja": "ノードN21でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward right, including exhibits and landmarks.",
+            "ja": "ノードN21のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node N21 back_right quick cue.",
+            "ja": "ノードN21のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノードN21でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward back_right, including exhibits and landmarks.",
+            "ja": "ノードN21のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node N21 back quick cue.",
+            "ja": "ノードN21のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing back. Corridor and nearby points are described.",
+            "ja": "ノードN21でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward back, including exhibits and landmarks.",
+            "ja": "ノードN21のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node N21 back_left quick cue.",
+            "ja": "ノードN21のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノードN21でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward back_left, including exhibits and landmarks.",
+            "ja": "ノードN21のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node N21 left quick cue.",
+            "ja": "ノードN21のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing left. Corridor and nearby points are described.",
+            "ja": "ノードN21でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward left, including exhibits and landmarks.",
+            "ja": "ノードN21のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node N21 front_left quick cue.",
+            "ja": "ノードN21のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N21 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノードN21でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N21 toward front_left, including exhibits and landmarks.",
+            "ja": "ノードN21のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "出口",
+        "branch_path",
+        "exit"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N22",
+      "label": {
+        "en": "Branch N22",
+        "ja": "分岐N22"
+      },
+      "tags": [
+        "branch_path"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node N22 front quick cue. corridor guide.",
+            "ja": "ノードN22のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing front. Corridor and nearby points are described.",
+            "ja": "ノードN22でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward front, including exhibits and landmarks.",
+            "ja": "ノードN22のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node N22 front_right quick cue.",
+            "ja": "ノードN22のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノードN22でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward front_right, including exhibits and landmarks.",
+            "ja": "ノードN22のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node N22 right quick cue.",
+            "ja": "ノードN22のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing right. Corridor and nearby points are described.",
+            "ja": "ノードN22でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward right, including exhibits and landmarks.",
+            "ja": "ノードN22のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node N22 back_right quick cue.",
+            "ja": "ノードN22のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノードN22でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward back_right, including exhibits and landmarks.",
+            "ja": "ノードN22のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node N22 back quick cue.",
+            "ja": "ノードN22のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing back. Corridor and nearby points are described.",
+            "ja": "ノードN22でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward back, including exhibits and landmarks.",
+            "ja": "ノードN22のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node N22 back_left quick cue.",
+            "ja": "ノードN22のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノードN22でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward back_left, including exhibits and landmarks.",
+            "ja": "ノードN22のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node N22 left quick cue.",
+            "ja": "ノードN22のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing left. Corridor and nearby points are described.",
+            "ja": "ノードN22でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward left, including exhibits and landmarks.",
+            "ja": "ノードN22のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node N22 front_left quick cue.",
+            "ja": "ノードN22のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N22 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノードN22でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N22 toward front_left, including exhibits and landmarks.",
+            "ja": "ノードN22のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "restroom",
+        "ロビー",
+        "branch_path"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N23",
+      "label": {
+        "en": "Branch N23",
+        "ja": "分岐N23"
+      },
+      "tags": [
+        "branch_path"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node N23 front quick cue. corridor guide.",
+            "ja": "ノードN23のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing front. Corridor and nearby points are described.",
+            "ja": "ノードN23でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward front, including exhibits and landmarks.",
+            "ja": "ノードN23のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node N23 front_right quick cue.",
+            "ja": "ノードN23のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノードN23でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward front_right, including exhibits and landmarks.",
+            "ja": "ノードN23のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node N23 right quick cue.",
+            "ja": "ノードN23のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing right. Corridor and nearby points are described.",
+            "ja": "ノードN23でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward right, including exhibits and landmarks.",
+            "ja": "ノードN23のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node N23 back_right quick cue.",
+            "ja": "ノードN23のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノードN23でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward back_right, including exhibits and landmarks.",
+            "ja": "ノードN23のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node N23 back quick cue.",
+            "ja": "ノードN23のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing back. Corridor and nearby points are described.",
+            "ja": "ノードN23でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward back, including exhibits and landmarks.",
+            "ja": "ノードN23のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node N23 back_left quick cue.",
+            "ja": "ノードN23のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノードN23でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward back_left, including exhibits and landmarks.",
+            "ja": "ノードN23のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node N23 left quick cue.",
+            "ja": "ノードN23のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing left. Corridor and nearby points are described.",
+            "ja": "ノードN23でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward left, including exhibits and landmarks.",
+            "ja": "ノードN23のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node N23 front_left quick cue.",
+            "ja": "ノードN23のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N23 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノードN23でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N23 toward front_left, including exhibits and landmarks.",
+            "ja": "ノードN23のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "トイレ",
+        "branch_path",
+        "lobby"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    },
+    {
+      "id": "N24",
+      "label": {
+        "en": "Branch N24",
+        "ja": "分岐N24"
+      },
+      "tags": [
+        "branch_path"
+      ],
+      "ocr": [],
+      "descriptions": {
+        "front": {
+          "level_1": {
+            "en": "Node N24 front quick cue. corridor guide.",
+            "ja": "ノードN24のfront方向の短い案内。 通路案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing front. Corridor and nearby points are described.",
+            "ja": "ノードN24でfront方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward front, including exhibits and landmarks.",
+            "ja": "ノードN24のfront方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_right": {
+          "level_1": {
+            "en": "Node N24 front_right quick cue.",
+            "ja": "ノードN24のfront_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing front_right. Corridor and nearby points are described.",
+            "ja": "ノードN24でfront_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward front_right, including exhibits and landmarks.",
+            "ja": "ノードN24のfront_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "right": {
+          "level_1": {
+            "en": "Node N24 right quick cue.",
+            "ja": "ノードN24のright方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing right. Corridor and nearby points are described.",
+            "ja": "ノードN24でright方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward right, including exhibits and landmarks.",
+            "ja": "ノードN24のright方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_right": {
+          "level_1": {
+            "en": "Node N24 back_right quick cue.",
+            "ja": "ノードN24のback_right方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing back_right. Corridor and nearby points are described.",
+            "ja": "ノードN24でback_right方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward back_right, including exhibits and landmarks.",
+            "ja": "ノードN24のback_right方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back": {
+          "level_1": {
+            "en": "Node N24 back quick cue.",
+            "ja": "ノードN24のback方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing back. Corridor and nearby points are described.",
+            "ja": "ノードN24でback方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward back, including exhibits and landmarks.",
+            "ja": "ノードN24のback方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "back_left": {
+          "level_1": {
+            "en": "Node N24 back_left quick cue.",
+            "ja": "ノードN24のback_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing back_left. Corridor and nearby points are described.",
+            "ja": "ノードN24でback_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward back_left, including exhibits and landmarks.",
+            "ja": "ノードN24のback_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "left": {
+          "level_1": {
+            "en": "Node N24 left quick cue.",
+            "ja": "ノードN24のleft方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing left. Corridor and nearby points are described.",
+            "ja": "ノードN24でleft方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward left, including exhibits and landmarks.",
+            "ja": "ノードN24のleft方向の詳細説明です。展示物や目印を含みます。"
+          }
+        },
+        "front_left": {
+          "level_1": {
+            "en": "Node N24 front_left quick cue.",
+            "ja": "ノードN24のfront_left方向の短い案内。"
+          },
+          "level_3": {
+            "en": "Node N24 facing front_left. Corridor and nearby points are described.",
+            "ja": "ノードN24でfront_left方向を向いています。通路と周辺の要素を説明します。"
+          },
+          "level_5": {
+            "en": "Detailed tourism description at node N24 toward front_left, including exhibits and landmarks.",
+            "ja": "ノードN24のfront_left方向の詳細説明です。展示物や目印を含みます。"
+          }
+        }
+      },
+      "landmark_tags": [
+        "entrance",
+        "branch_path",
+        "入口"
+      ],
+      "direction_tags": {
+        "front": [
+          "forward",
+          "guide"
+        ],
+        "back": [
+          "return"
+        ],
+        "left": [
+          "left turn"
+        ],
+        "right": [
+          "right turn"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1_2",
+      "from": "N1",
+      "to": "N2",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E2_1",
+      "from": "N2",
+      "to": "N1",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E2_3",
+      "from": "N2",
+      "to": "N3",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E3_2",
+      "from": "N3",
+      "to": "N2",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E3_4",
+      "from": "N3",
+      "to": "N4",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E4_3",
+      "from": "N4",
+      "to": "N3",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E4_5",
+      "from": "N4",
+      "to": "N5",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E5_4",
+      "from": "N5",
+      "to": "N4",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E5_6",
+      "from": "N5",
+      "to": "N6",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E6_5",
+      "from": "N6",
+      "to": "N5",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E6_7",
+      "from": "N6",
+      "to": "N7",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E7_6",
+      "from": "N7",
+      "to": "N6",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E7_8",
+      "from": "N7",
+      "to": "N8",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E8_7",
+      "from": "N8",
+      "to": "N7",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E8_9",
+      "from": "N8",
+      "to": "N9",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E9_8",
+      "from": "N9",
+      "to": "N8",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E9_10",
+      "from": "N9",
+      "to": "N10",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E10_9",
+      "from": "N10",
+      "to": "N9",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E10_11",
+      "from": "N10",
+      "to": "N11",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E11_10",
+      "from": "N11",
+      "to": "N10",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E11_12",
+      "from": "N11",
+      "to": "N12",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E12_11",
+      "from": "N12",
+      "to": "N11",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E12_13",
+      "from": "N12",
+      "to": "N13",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E13_12",
+      "from": "N13",
+      "to": "N12",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E13_14",
+      "from": "N13",
+      "to": "N14",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E14_13",
+      "from": "N14",
+      "to": "N13",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E14_15",
+      "from": "N14",
+      "to": "N15",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E15_14",
+      "from": "N15",
+      "to": "N14",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E15_16",
+      "from": "N15",
+      "to": "N16",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E16_15",
+      "from": "N16",
+      "to": "N15",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E16_17",
+      "from": "N16",
+      "to": "N17",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E17_16",
+      "from": "N17",
+      "to": "N16",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E17_18",
+      "from": "N17",
+      "to": "N18",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E18_17",
+      "from": "N18",
+      "to": "N17",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E18_19",
+      "from": "N18",
+      "to": "N19",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E19_18",
+      "from": "N19",
+      "to": "N18",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "E19_20",
+      "from": "N19",
+      "to": "N20",
+      "direction_from": "front",
+      "direction_to": "back",
+      "distance_m": 1
+    },
+    {
+      "id": "E20_19",
+      "from": "N20",
+      "to": "N19",
+      "direction_from": "back",
+      "direction_to": "front",
+      "distance_m": 1
+    },
+    {
+      "id": "B1a",
+      "from": "N6",
+      "to": "N21",
+      "direction_from": "right",
+      "direction_to": "left",
+      "distance_m": 1
+    },
+    {
+      "id": "B1b",
+      "from": "N21",
+      "to": "N6",
+      "direction_from": "left",
+      "direction_to": "right",
+      "distance_m": 1
+    },
+    {
+      "id": "B2a",
+      "from": "N11",
+      "to": "N22",
+      "direction_from": "right",
+      "direction_to": "left",
+      "distance_m": 1
+    },
+    {
+      "id": "B2b",
+      "from": "N22",
+      "to": "N11",
+      "direction_from": "left",
+      "direction_to": "right",
+      "distance_m": 1
+    },
+    {
+      "id": "B3a",
+      "from": "N16",
+      "to": "N23",
+      "direction_from": "right",
+      "direction_to": "left",
+      "distance_m": 1
+    },
+    {
+      "id": "B3b",
+      "from": "N23",
+      "to": "N16",
+      "direction_from": "left",
+      "direction_to": "right",
+      "distance_m": 1
+    },
+    {
+      "id": "B4a",
+      "from": "N11",
+      "to": "N24",
+      "direction_from": "right",
+      "direction_to": "left",
+      "distance_m": 1
+    },
+    {
+      "id": "B4b",
+      "from": "N24",
+      "to": "N11",
+      "direction_from": "left",
+      "direction_to": "right",
+      "distance_m": 1
+    }
+  ],
+  "routes": [
+    {
+      "id": "R1",
+      "name": {
+        "en": "Entrance corridor practice",
+        "ja": "入口通路練習"
+      },
+      "start_node_id": "N1",
+      "goal_node_id": "N8",
+      "node_sequence": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6",
+        "N7",
+        "N8"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": {
+        "en": "Lobby to exit route",
+        "ja": "ロビーから出口ルート"
+      },
+      "start_node_id": "N10",
+      "goal_node_id": "N20",
+      "node_sequence": [
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20"
+      ]
+    }
+  ],
+  "branch_questions": [
+    {
+      "node_id": "N6",
+      "prompt": {
+        "en": "Which direction leads to branch N21?",
+        "ja": "分岐N21へ進む方向はどれですか。"
+      },
+      "correct_direction": "right",
+      "choices": [
+        "front",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "node_id": "N11",
+      "prompt": {
+        "en": "Choose the turn for N22.",
+        "ja": "N22へ向かう曲がり方を選んでください。"
+      },
+      "correct_direction": "right",
+      "choices": [
+        "front",
+        "right",
+        "back"
+      ]
+    },
+    {
+      "node_id": "N16",
+      "prompt": {
+        "en": "Direction to N23?",
+        "ja": "N23への方向はどちらですか。"
+      },
+      "correct_direction": "right",
+      "choices": [
+        "front",
+        "right",
+        "left"
+      ]
+    }
+  ]
+}

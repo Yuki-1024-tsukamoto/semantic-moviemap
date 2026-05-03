@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic_map.schema.json",
+  "title": "SemanticMovieMap",
+  "type": "object",
+  "required": ["meta", "nodes", "edges", "routes"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["map_id", "version", "condition_type"],
+      "properties": {
+        "map_id": {"type": "string"},
+        "version": {"type": "string"},
+        "condition_type": {"enum": ["auto", "manual_plus"]}
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 20,
+      "items": {"$ref": "#/$defs/node"}
+    },
+    "edges": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/edge"}
+    },
+    "routes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"$ref": "#/$defs/route"}
+    },
+    "branch_questions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/branchQuestion"}
+    }
+  },
+  "$defs": {
+    "direction": {"enum": ["front", "front_right", "right", "back_right", "back", "back_left", "left", "front_left"]},
+    "localizedText": {
+      "type": "object",
+      "required": ["en", "ja"],
+      "properties": {"en": {"type": "string"}, "ja": {"type": "string"}}
+    },
+    "levelText": {
+      "type": "object",
+      "required": ["level_1", "level_3", "level_5"],
+      "properties": {
+        "level_1": {"$ref": "#/$defs/localizedText"},
+        "level_3": {"$ref": "#/$defs/localizedText"},
+        "level_5": {"$ref": "#/$defs/localizedText"}
+      }
+    },
+    "node": {
+      "type": "object",
+      "required": ["id", "label", "tags", "ocr", "descriptions"],
+      "properties": {
+        "id": {"type": "string"},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "ocr": {"type": "array", "items": {"type": "string"}},
+        "landmark_tags": {"type": "array", "items": {"type": "string"}},
+        "direction_tags": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "string"}}},
+        "descriptions": {
+          "type": "object",
+          "properties": {
+            "front": {"$ref": "#/$defs/levelText"},
+            "front_right": {"$ref": "#/$defs/levelText"},
+            "right": {"$ref": "#/$defs/levelText"},
+            "back_right": {"$ref": "#/$defs/levelText"},
+            "back": {"$ref": "#/$defs/levelText"},
+            "back_left": {"$ref": "#/$defs/levelText"},
+            "left": {"$ref": "#/$defs/levelText"},
+            "front_left": {"$ref": "#/$defs/levelText"}
+          },
+          "required": ["front", "front_right", "right", "back_right", "back", "back_left", "left", "front_left"]
+        }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["id", "from", "to", "direction_from", "direction_to", "distance_m"],
+      "properties": {
+        "id": {"type": "string"},
+        "from": {"type": "string"},
+        "to": {"type": "string"},
+        "direction_from": {"$ref": "#/$defs/direction"},
+        "direction_to": {"$ref": "#/$defs/direction"},
+        "distance_m": {"type": "number"}
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": ["id", "name", "start_node_id", "goal_node_id", "node_sequence"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"$ref": "#/$defs/localizedText"},
+        "start_node_id": {"type": "string"},
+        "goal_node_id": {"type": "string"},
+        "node_sequence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "branchQuestion": {
+      "type": "object",
+      "required": ["node_id", "prompt", "correct_direction", "choices"],
+      "properties": {
+        "node_id": {"type": "string"},
+        "prompt": {"$ref": "#/$defs/localizedText"},
+        "correct_direction": {"$ref": "#/$defs/direction"},
+        "choices": {"type": "array", "items": {"$ref": "#/$defs/direction"}}
+      }
+    }
+  }
+}
